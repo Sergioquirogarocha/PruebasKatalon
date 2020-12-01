@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Publisher</name>
+   <name>button_Publish_Post</name>
    <tag></tag>
-   <elementGuidId>29e1316f-c8ef-481b-97a9-fdac1a59281d</elementGuidId>
+   <elementGuidId>81105e8d-7762-4581-b4ff-ed8ee970d065</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.components-button.editor-post-publish-button.is-button.is-default.is-primary.is-large</value>
+         <value>button.components-button.editor-post-publish-panel__toggle.is-button.is-primary</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[21]</value>
+         <value>(//button[@type='button'])[9]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -40,71 +40,78 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>components-button editor-post-publish-button is-button is-default is-primary is-large</value>
+      <value>components-button editor-post-publish-panel__toggle is-button is-primary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Publish</value>
+      <value>Publish…</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;editor&quot;)/div[@class=&quot;components-drop-zone__provider&quot;]/div[@class=&quot;components-navigate-regions&quot;]/div[@class=&quot;edit-post-layout is-sidebar-opened&quot;]/div[3]/div[1]/div[@class=&quot;editor-post-publish-panel&quot;]/div[@class=&quot;editor-post-publish-panel__header&quot;]/div[@class=&quot;editor-post-publish-panel__header-publish-button&quot;]/button[@class=&quot;components-button editor-post-publish-button is-button is-default is-primary is-large&quot;]</value>
+      <value>id(&quot;editor&quot;)/div[@class=&quot;components-drop-zone__provider&quot;]/div[@class=&quot;components-navigate-regions&quot;]/div[@class=&quot;edit-post-layout is-sidebar-opened&quot;]/div[@class=&quot;edit-post-header&quot;]/div[@class=&quot;edit-post-header__settings&quot;]/button[@class=&quot;components-button editor-post-publish-panel__toggle is-button is-primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[21]</value>
+      <value>(//button[@type='button'])[9]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='editor']/div/div/div/div[3]/div/div/div/div/button</value>
+      <value>//div[@id='editor']/div/div/div/div/div[2]/button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='fxdcg'])[1]/following::button[11]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(opens in a new tab)'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add title'])[1]/following::button[11]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add title'])[1]/preceding::button[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you ready to publish?'])[1]/preceding::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nuevo post'])[1]/preceding::button[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Publish']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Publish…']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div/div/button</value>
+      <value>//div[2]/button[2]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -38,17 +38,11 @@ WebUI.click(findTestObject('Login/ButtonLogin'))
 
 WebUI.verifyElementPresent(findTestObject('Main Page/WelcomeMenu'), 5)
 
-WebUI.click(findTestObject('Options/MenuPages'))
+WebUI.click(findTestObject('Options/MenuPost'))
 
-WebUI.verifyElementPresent(findTestObject('Interfaces/InterfacePages'), 3)
+WebUI.verifyElementPresent(findTestObject('Interfaces/InterfacePost'), 3)
 
-WebUI.click(findTestObject('NavegationOptions/Trash'))
+WebUI.click(findTestObject('AddNew/AddNewPost'))
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('NavegationOptions/Published'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('NavegationOptions/Drafts'))
+WebUI.verifyElementPresent(findTestObject('NewPost/AddTitlePost'), 3)
 
