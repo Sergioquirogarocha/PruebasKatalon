@@ -1,0 +1,73 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Posts,Chrome 86.0.4240.198,,,2020-11-30 23:00:08,2020-11-30 23:01:31,"1m - 22,530s",PASSED
+,,,,,,,
+Test Cases/Posts/AddNewButton,Chrome 86.0.4240.198,,,2020-11-30 23:00:09,2020-11-30 23:00:32,"22,788s",PASSED
+"openBrowser(""https://s1.demo.opensourcecms.com/wordpress/wp-login.php"")",Chrome 86.0.4240.198,"Se ingresa al navegador por defecto
+",,2020-11-30 23:00:09,2020-11-30 23:00:15,"5,977s",PASSED
+maximizeWindow(),Chrome 86.0.4240.198,"maximiza el navegador
+",,2020-11-30 23:00:15,2020-11-30 23:00:18,"2,198s",PASSED
+"click(findTestObject(""Login/InputUserName""))",Chrome 86.0.4240.198,"Se selecciona el campo de usuario
+",,2020-11-30 23:00:18,2020-11-30 23:00:18,"0,196s",PASSED
+"setText(findTestObject(""Login/InputUserName""), ""opensourcecms"")",Chrome 86.0.4240.198,Se ingresa el usuario,,2020-11-30 23:00:18,2020-11-30 23:00:18,"0,200s",PASSED
+"click(findTestObject(""Login/InputPassword""))",Chrome 86.0.4240.198,"Se selecciona el campo de contraseña
+",,2020-11-30 23:00:18,2020-11-30 23:00:18,"0,116s",PASSED
+"setText(findTestObject(""Login/InputPassword""), ""opensourcecms"")",Chrome 86.0.4240.198,Se ingresa la contraseña,,2020-11-30 23:00:18,2020-11-30 23:00:18,"0,163s",PASSED
+"click(findTestObject(""Login/ButtonLogin""))",Chrome 86.0.4240.198,Se selecciona el boton de ingreso,,2020-11-30 23:00:18,2020-11-30 23:00:21,"2,959s",PASSED
+"verifyElementPresent(findTestObject(""Main Page/WelcomeMenu""), 5)",Chrome 86.0.4240.198,,,2020-11-30 23:00:21,2020-11-30 23:00:21,"0,077s",PASSED
+"click(findTestObject(""Options/MenuPost""))",Chrome 86.0.4240.198,,,2020-11-30 23:00:21,2020-11-30 23:00:22,"0,666s",PASSED
+"verifyElementPresent(findTestObject(""Interfaces/InterfacePost""), 3)",Chrome 86.0.4240.198,,,2020-11-30 23:00:22,2020-11-30 23:00:22,"0,081s",PASSED
+"click(findTestObject(""AddNew/AddNewPost""))",Chrome 86.0.4240.198,,,2020-11-30 23:00:22,2020-11-30 23:00:27,"4,673s",PASSED
+"verifyElementPresent(findTestObject(""NewPost/AddTitlePost""), 3)",Chrome 86.0.4240.198,,,2020-11-30 23:00:27,2020-11-30 23:00:27,"0,118s",PASSED
+,,,,,,,
+Test Cases/Posts/AddNewPost,Chrome 86.0.4240.198,,,2020-11-30 23:00:32,2020-11-30 23:00:55,"23,059s",PASSED
+"openBrowser(""https://s1.demo.opensourcecms.com/wordpress/wp-login.php"")",Chrome 86.0.4240.198,"Se ingresa al navegador por defecto
+",,2020-11-30 23:00:32,2020-11-30 23:00:38,"5,750s",PASSED
+maximizeWindow(),Chrome 86.0.4240.198,"maximiza el navegador
+",,2020-11-30 23:00:38,2020-11-30 23:00:40,"2,184s",PASSED
+"click(findTestObject(""Login/InputUserName""))",Chrome 86.0.4240.198,"Se selecciona el campo de usuario
+",,2020-11-30 23:00:40,2020-11-30 23:00:40,"0,160s",PASSED
+"setText(findTestObject(""Login/InputUserName""), ""opensourcecms"")",Chrome 86.0.4240.198,Se ingresa el usuario,,2020-11-30 23:00:40,2020-11-30 23:00:40,"0,181s",PASSED
+"click(findTestObject(""Login/InputPassword""))",Chrome 86.0.4240.198,"Se selecciona el campo de contraseña
+",,2020-11-30 23:00:40,2020-11-30 23:00:41,"0,118s",PASSED
+"setText(findTestObject(""Login/InputPassword""), ""opensourcecms"")",Chrome 86.0.4240.198,Se ingresa la contraseña,,2020-11-30 23:00:41,2020-11-30 23:00:41,"0,176s",PASSED
+"click(findTestObject(""Login/ButtonLogin""))",Chrome 86.0.4240.198,Se selecciona el boton de ingreso,,2020-11-30 23:00:41,2020-11-30 23:00:44,"3,102s",PASSED
+"verifyElementPresent(findTestObject(""Main Page/WelcomeMenu""), 5)",Chrome 86.0.4240.198,,,2020-11-30 23:00:44,2020-11-30 23:00:44,"0,144s",PASSED
+"click(findTestObject(""Options/MenuPost""))",Chrome 86.0.4240.198,,,2020-11-30 23:00:44,2020-11-30 23:00:45,"0,705s",PASSED
+"verifyElementPresent(findTestObject(""Interfaces/InterfacePost""), 3)",Chrome 86.0.4240.198,,,2020-11-30 23:00:45,2020-11-30 23:00:45,"0,072s",PASSED
+"click(findTestObject(""AddNew/AddNewPost""))",Chrome 86.0.4240.198,,,2020-11-30 23:00:45,2020-11-30 23:00:49,"4,699s",PASSED
+"verifyElementPresent(findTestObject(""NewPost/AddTitlePost""), 3)",Chrome 86.0.4240.198,,,2020-11-30 23:00:49,2020-11-30 23:00:49,"0,085s",PASSED
+"setText(findTestObject(""NewPost/AddTitlePost""), ""Mi Nueva Pagina"")",Chrome 86.0.4240.198,,,2020-11-30 23:00:49,2020-11-30 23:00:50,"0,281s",PASSED
+"click(findTestObject(""NewPost/button_Publish_Post""))",Chrome 86.0.4240.198,,,2020-11-30 23:00:50,2020-11-30 23:00:50,"0,162s",PASSED
+,,,,,,,
+Test Cases/Posts/NavigateOptions,Chrome 86.0.4240.198,,,2020-11-30 23:00:55,2020-11-30 23:01:13,"18,208s",PASSED
+"openBrowser(""https://s1.demo.opensourcecms.com/wordpress/wp-login.php"")",Chrome 86.0.4240.198,"Se ingresa al navegador por defecto
+",,2020-11-30 23:00:55,2020-11-30 23:01:01,"5,805s",PASSED
+maximizeWindow(),Chrome 86.0.4240.198,"maximiza el navegador
+",,2020-11-30 23:01:01,2020-11-30 23:01:03,"2,169s",PASSED
+"click(findTestObject(""Login/InputUserName""))",Chrome 86.0.4240.198,"Se selecciona el campo de usuario
+",,2020-11-30 23:01:03,2020-11-30 23:01:03,"0,155s",PASSED
+"setText(findTestObject(""Login/InputUserName""), ""opensourcecms"")",Chrome 86.0.4240.198,Se ingresa el usuario,,2020-11-30 23:01:03,2020-11-30 23:01:03,"0,164s",PASSED
+"click(findTestObject(""Login/InputPassword""))",Chrome 86.0.4240.198,"Se selecciona el campo de contraseña
+",,2020-11-30 23:01:03,2020-11-30 23:01:04,"0,121s",PASSED
+"setText(findTestObject(""Login/InputPassword""), ""opensourcecms"")",Chrome 86.0.4240.198,Se ingresa la contraseña,,2020-11-30 23:01:04,2020-11-30 23:01:04,"0,176s",PASSED
+"click(findTestObject(""Login/ButtonLogin""))",Chrome 86.0.4240.198,Se selecciona el boton de ingreso,,2020-11-30 23:01:04,2020-11-30 23:01:07,"2,952s",PASSED
+"verifyElementPresent(findTestObject(""Main Page/WelcomeMenu""), 5)",Chrome 86.0.4240.198,,,2020-11-30 23:01:07,2020-11-30 23:01:07,"0,078s",PASSED
+"click(findTestObject(""Options/MenuPost""))",Chrome 86.0.4240.198,,,2020-11-30 23:01:07,2020-11-30 23:01:07,"0,647s",PASSED
+"verifyElementPresent(findTestObject(""Interfaces/InterfacePost""), 3)",Chrome 86.0.4240.198,,,2020-11-30 23:01:07,2020-11-30 23:01:08,"0,078s",PASSED
+"click(findTestObject(""NavegationOptions/PublishedPost""))",Chrome 86.0.4240.198,,,2020-11-30 23:01:08,2020-11-30 23:01:08,"0,628s",PASSED
+,,,,,,,
+Test Cases/Posts/ViewInterfacePosts,Chrome 86.0.4240.198,,,2020-11-30 23:01:13,2020-11-30 23:01:31,"17,552s",PASSED
+"openBrowser(""https://s1.demo.opensourcecms.com/wordpress/wp-login.php"")",Chrome 86.0.4240.198,"Se ingresa al navegador por defecto
+",,2020-11-30 23:01:13,2020-11-30 23:01:19,"5,684s",PASSED
+maximizeWindow(),Chrome 86.0.4240.198,"maximiza el navegador
+",,2020-11-30 23:01:19,2020-11-30 23:01:21,"2,181s",PASSED
+"click(findTestObject(""Login/InputUserName""))",Chrome 86.0.4240.198,"Se selecciona el campo de usuario
+",,2020-11-30 23:01:21,2020-11-30 23:01:21,"0,140s",PASSED
+"setText(findTestObject(""Login/InputUserName""), ""opensourcecms"")",Chrome 86.0.4240.198,Se ingresa el usuario,,2020-11-30 23:01:21,2020-11-30 23:01:22,"0,175s",PASSED
+"click(findTestObject(""Login/InputPassword""))",Chrome 86.0.4240.198,"Se selecciona el campo de contraseña
+",,2020-11-30 23:01:22,2020-11-30 23:01:22,"0,119s",PASSED
+"setText(findTestObject(""Login/InputPassword""), ""opensourcecms"")",Chrome 86.0.4240.198,Se ingresa la contraseña,,2020-11-30 23:01:22,2020-11-30 23:01:22,"0,163s",PASSED
+"click(findTestObject(""Login/ButtonLogin""))",Chrome 86.0.4240.198,Se selecciona el boton de ingreso,,2020-11-30 23:01:22,2020-11-30 23:01:25,"3,076s",PASSED
+"verifyElementPresent(findTestObject(""Main Page/WelcomeMenu""), 5)",Chrome 86.0.4240.198,,,2020-11-30 23:01:25,2020-11-30 23:01:25,"0,079s",PASSED
+"click(findTestObject(""Options/MenuPost""))",Chrome 86.0.4240.198,,,2020-11-30 23:01:25,2020-11-30 23:01:26,"0,641s",PASSED
+"verifyElementPresent(findTestObject(""Interfaces/InterfacePost""), 3)",Chrome 86.0.4240.198,,,2020-11-30 23:01:26,2020-11-30 23:01:26,"0,076s",PASSED

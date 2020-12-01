@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 86.0.4240.198,,,2020-11-30 22:57:44,2020-11-30 22:58:34,"49,758s",PASSED
+,,,,,,,
+Test Cases/Login/CorrectLogin,Chrome 86.0.4240.198,,,2020-11-30 22:57:45,2020-11-30 22:58:03,"18,342s",PASSED
+"openBrowser(""https://s1.demo.opensourcecms.com/wordpress/wp-login.php"")",Chrome 86.0.4240.198,"Se ingresa al navegador por defecto
+",,2020-11-30 22:57:46,2020-11-30 22:57:52,"6,674s",PASSED
+maximizeWindow(),Chrome 86.0.4240.198,"maximiza el navegador
+",,2020-11-30 22:57:52,2020-11-30 22:57:54,"2,195s",PASSED
+"click(findTestObject(""Login/InputUserName""))",Chrome 86.0.4240.198,"Se selecciona el campo de usuario
+",,2020-11-30 22:57:54,2020-11-30 22:57:55,"0,204s",PASSED
+"setText(findTestObject(""Login/InputUserName""), ""opensourcecms"")",Chrome 86.0.4240.198,Se ingresa el usuario,,2020-11-30 22:57:55,2020-11-30 22:57:55,"0,213s",PASSED
+"click(findTestObject(""Login/InputPassword""))",Chrome 86.0.4240.198,"Se selecciona el campo de contraseña
+",,2020-11-30 22:57:55,2020-11-30 22:57:55,"0,156s",PASSED
+"setText(findTestObject(""Login/InputPassword""), ""opensourcecms"")",Chrome 86.0.4240.198,Se ingresa la contraseña,,2020-11-30 22:57:55,2020-11-30 22:57:55,"0,175s",PASSED
+"click(findTestObject(""Login/ButtonLogin""))",Chrome 86.0.4240.198,Se selecciona el boton de ingreso,,2020-11-30 22:57:55,2020-11-30 22:57:58,"3,148s",PASSED
+"verifyElementPresent(findTestObject(""Main Page/WelcomeMenu""), 5)",Chrome 86.0.4240.198,,,2020-11-30 22:57:58,2020-11-30 22:57:58,"0,120s",PASSED
+,,,,,,,
+Test Cases/Login/LoginWithIncorrectPassword,Chrome 86.0.4240.198,,,2020-11-30 22:58:03,2020-11-30 22:58:19,"15,087s",PASSED
+"openBrowser(""https://s1.demo.opensourcecms.com/wordpress/wp-login.php"")",Chrome 86.0.4240.198,"Se ingresa al navegador por defecto
+",,2020-11-30 22:58:04,2020-11-30 22:58:09,"5,823s",PASSED
+maximizeWindow(),Chrome 86.0.4240.198,"maximiza el navegador
+",,2020-11-30 22:58:09,2020-11-30 22:58:12,"2,177s",PASSED
+"click(findTestObject(""Login/InputUserName""))",Chrome 86.0.4240.198,"Se selecciona el campo de usuario
+",,2020-11-30 22:58:12,2020-11-30 22:58:12,"0,201s",PASSED
+"setText(findTestObject(""Login/InputUserName""), ""opensourcecms"")",Chrome 86.0.4240.198,Se ingresa el usuario,,2020-11-30 22:58:12,2020-11-30 22:58:12,"0,196s",PASSED
+"click(findTestObject(""Login/InputPassword""))",Chrome 86.0.4240.198,"Se selecciona el campo de contraseña
+",,2020-11-30 22:58:12,2020-11-30 22:58:12,"0,135s",PASSED
+"setText(findTestObject(""Login/InputPassword""), ""opensourcecm"")",Chrome 86.0.4240.198,Se ingresa la contraseña incorrecta,,2020-11-30 22:58:12,2020-11-30 22:58:12,"0,189s",PASSED
+"click(findTestObject(""Login/ButtonLogin""))",Chrome 86.0.4240.198,Se selecciona el boton de ingreso,,2020-11-30 22:58:12,2020-11-30 22:58:13,"0,994s",PASSED
+"verifyElementPresent(findTestObject(""Error User/InvalidUser""), 3)",Chrome 86.0.4240.198,"Se busca el mensaje de error del ingreso de usuario
+",,2020-11-30 22:58:13,2020-11-30 22:58:13,"0,095s",PASSED
+,,,,,,,
+Test Cases/Login/LoginWithIncorretUserName,Chrome 86.0.4240.198,,,2020-11-30 22:58:19,2020-11-30 22:58:34,"15,253s",PASSED
+"openBrowser(""https://s1.demo.opensourcecms.com/wordpress/wp-login.php"")",Chrome 86.0.4240.198,"Se ingresa al navegador por defecto
+",,2020-11-30 22:58:19,2020-11-30 22:58:25,"5,931s",PASSED
+maximizeWindow(),Chrome 86.0.4240.198,"maximiza el navegador
+",,2020-11-30 22:58:25,2020-11-30 22:58:27,"2,194s",PASSED
+"click(findTestObject(""Login/InputUserName""))",Chrome 86.0.4240.198,"Se selecciona el campo de usuario
+",,2020-11-30 22:58:27,2020-11-30 22:58:27,"0,184s",PASSED
+"setText(findTestObject(""Login/InputUserName""), ""opensourcecm"")",Chrome 86.0.4240.198,Se ingresa el usuario incorrecto,,2020-11-30 22:58:27,2020-11-30 22:58:27,"0,228s",PASSED
+"click(findTestObject(""Login/InputPassword""))",Chrome 86.0.4240.198,"Se selecciona el campo de contraseña
+",,2020-11-30 22:58:27,2020-11-30 22:58:27,"0,175s",PASSED
+"setText(findTestObject(""Login/InputPassword""), ""opensourcecms"")",Chrome 86.0.4240.198,Se ingresa la contraseña,,2020-11-30 22:58:27,2020-11-30 22:58:28,"0,198s",PASSED
+"click(findTestObject(""Login/ButtonLogin""))",Chrome 86.0.4240.198,Se selecciona el boton de ingreso,,2020-11-30 22:58:28,2020-11-30 22:58:29,"0,971s",PASSED
+"verifyElementPresent(findTestObject(""Error User/InvalidUser""), 3)",Chrome 86.0.4240.198,"Se busca el mensaje de error del ingreso de usuario
+",,2020-11-30 22:58:29,2020-11-30 22:58:29,"0,111s",PASSED

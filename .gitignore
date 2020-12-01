@@ -1,13 +1,5 @@
 .gradle
 
-bin
-
-Reports
-
-Libs
-
-output
-
 !output/.gitkeep
 build
 

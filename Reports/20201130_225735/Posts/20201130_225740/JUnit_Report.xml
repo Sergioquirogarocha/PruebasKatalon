@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Posts" time="82.53" tests="4" failures="0" skips="0" errors="0">
+   <testsuite name="Posts" tests="4" failures="0" errors="0" time="82.53" skips="0" timestamp="2020-11-30 23:00:08" hostname="Sergio - hpPC" id="Test Suites/Posts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sergio\\Katalon Studio\\Pruebas\\Reports\\20201130_225735\\Posts\\20201130_225740"/>
+         <property name="logFiles" value="C:\\Users\\Sergio\\Katalon Studio\\Pruebas\\Reports\\20201130_225735\\Posts\\20201130_225740\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sergio - hpPC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="null.null"/>
+         <property name="browser" value="Chrome 86.0.4240.198"/>
+         <property name="hostAddress" value="192.168.1.103"/>
+         <property name="sessionId" value="7724007bf7f8c2d10e54699cc2e3bff2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Posts/AddNewButton" time="22.788" classname="Test Cases/Posts/AddNewButton" status="PASSED">
+         <system-out><![CDATA[2020-11-30 23:00:09 - [TEST_CASE][PASSED] - Test Cases/Posts/AddNewButton: Test Cases/Posts/AddNewButton
+
+2020-11-30 23:00:09 - [TEST_STEP][PASSED] - openBrowser("https://s1.demo.opensourcecms.com/wordpress/wp-login.php"): Browser is opened with url: 'https://s1.demo.opensourcecms.com/wordpress/wp-login.php'
+
+2020-11-30 23:00:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-11-30 23:00:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-30 23:00:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://s1.demo.opensourcecms.com/wordpress/wp-login.php'
+
+2020-11-30 23:00:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-11-30 23:00:18 - [MESSAGE][PASSED] - Current window maximized
+
+2020-11-30 23:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/InputUserName")): Object: 'Object Repository/Login/InputUserName' is clicked on
+
+2020-11-30 23:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/InputUserName' is clicked on
+
+2020-11-30 23:00:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login/InputUserName"), "opensourcecms"): Text 'opensourcecms' is set on object 'Object Repository/Login/InputUserName'
+
+2020-11-30 23:00:18 - [MESSAGE][PASSED] - Text 'opensourcecms' is set on object 'Object Repository/Login/InputUserName'
+
+2020-11-30 23:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/InputPassword")): Object: 'Object Repository/Login/InputPassword' is clicked on
+
+2020-11-30 23:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/InputPassword' is clicked on
+
+2020-11-30 23:00:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login/InputPassword"), "opensourcecms"): Text 'opensourcecms' is set on object 'Object Repository/Login/InputPassword'
+
+2020-11-30 23:00:18 - [MESSAGE][PASSED] - Text 'opensourcecms' is set on object 'Object Repository/Login/InputPassword'
+
+2020-11-30 23:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/ButtonLogin")): Object: 'Object Repository/Login/ButtonLogin' is clicked on
+
+2020-11-30 23:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/ButtonLogin' is clicked on
+
+2020-11-30 23:00:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main Page/WelcomeMenu"), 5): Object 'Object Repository/Main Page/WelcomeMenu' is present
+
+2020-11-30 23:00:21 - [MESSAGE][PASSED] - Object 'Object Repository/Main Page/WelcomeMenu' is present
+
+2020-11-30 23:00:21 - [TEST_STEP][PASSED] - click(findTestObject("Options/MenuPost")): Object: 'Object Repository/Options/MenuPost' is clicked on
+
+2020-11-30 23:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Options/MenuPost' is clicked on
+
+2020-11-30 23:00:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Interfaces/InterfacePost"), 3): Object 'Object Repository/Interfaces/InterfacePost' is present
+
+2020-11-30 23:00:22 - [MESSAGE][PASSED] - Object 'Object Repository/Interfaces/InterfacePost' is present
+
+2020-11-30 23:00:22 - [TEST_STEP][PASSED] - click(findTestObject("AddNew/AddNewPost")): Object: 'Object Repository/AddNew/AddNewPost' is clicked on
+
+2020-11-30 23:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/AddNew/AddNewPost' is clicked on
+
+2020-11-30 23:00:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("NewPost/AddTitlePost"), 3): Object 'Object Repository/NewPost/AddTitlePost' is present
+
+2020-11-30 23:00:27 - [MESSAGE][PASSED] - Object 'Object Repository/NewPost/AddTitlePost' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Posts/AddNewPost" time="23.059" classname="Test Cases/Posts/AddNewPost" status="PASSED">
+         <system-out><![CDATA[2020-11-30 23:00:32 - [TEST_CASE][PASSED] - Test Cases/Posts/AddNewPost: Test Cases/Posts/AddNewPost
+
+2020-11-30 23:00:32 - [TEST_STEP][PASSED] - openBrowser("https://s1.demo.opensourcecms.com/wordpress/wp-login.php"): Browser is opened with url: 'https://s1.demo.opensourcecms.com/wordpress/wp-login.php'
+
+2020-11-30 23:00:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-11-30 23:00:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-11-30 23:00:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-30 23:00:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://s1.demo.opensourcecms.com/wordpress/wp-login.php'
+
+2020-11-30 23:00:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-11-30 23:00:40 - [MESSAGE][PASSED] - Current window maximized
+
+2020-11-30 23:00:40 - [TEST_STEP][PASSED] - click(findTestObject("Login/InputUserName")): Object: 'Object Repository/Login/InputUserName' is clicked on
+
+2020-11-30 23:00:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/InputUserName' is clicked on
+
+2020-11-30 23:00:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login/InputUserName"), "opensourcecms"): Text 'opensourcecms' is set on object 'Object Repository/Login/InputUserName'
+
+2020-11-30 23:00:40 - [MESSAGE][PASSED] - Text 'opensourcecms' is set on object 'Object Repository/Login/InputUserName'
+
+2020-11-30 23:00:40 - [TEST_STEP][PASSED] - click(findTestObject("Login/InputPassword")): Object: 'Object Repository/Login/InputPassword' is clicked on
+
+2020-11-30 23:00:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/InputPassword' is clicked on
+
+2020-11-30 23:00:41 - [TEST_STEP][PASSED] - setText(findTestObject("Login/InputPassword"), "opensourcecms"): Text 'opensourcecms' is set on object 'Object Repository/Login/InputPassword'
+
+2020-11-30 23:00:41 - [MESSAGE][PASSED] - Text 'opensourcecms' is set on object 'Object Repository/Login/InputPassword'
+
+2020-11-30 23:00:41 - [TEST_STEP][PASSED] - click(findTestObject("Login/ButtonLogin")): Object: 'Object Repository/Login/ButtonLogin' is clicked on
+
+2020-11-30 23:00:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/ButtonLogin' is clicked on
+
+2020-11-30 23:00:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main Page/WelcomeMenu"), 5): Object 'Object Repository/Main Page/WelcomeMenu' is present
+
+2020-11-30 23:00:44 - [MESSAGE][PASSED] - Object 'Object Repository/Main Page/WelcomeMenu' is present
+
+2020-11-30 23:00:44 - [TEST_STEP][PASSED] - click(findTestObject("Options/MenuPost")): Object: 'Object Repository/Options/MenuPost' is clicked on
+
+2020-11-30 23:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Options/MenuPost' is clicked on
+
+2020-11-30 23:00:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Interfaces/InterfacePost"), 3): Object 'Object Repository/Interfaces/InterfacePost' is present
+
+2020-11-30 23:00:45 - [MESSAGE][PASSED] - Object 'Object Repository/Interfaces/InterfacePost' is present
+
+2020-11-30 23:00:45 - [TEST_STEP][PASSED] - click(findTestObject("AddNew/AddNewPost")): Object: 'Object Repository/AddNew/AddNewPost' is clicked on
+
+2020-11-30 23:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AddNew/AddNewPost' is clicked on
+
+2020-11-30 23:00:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("NewPost/AddTitlePost"), 3): Object 'Object Repository/NewPost/AddTitlePost' is present
+
+2020-11-30 23:00:49 - [MESSAGE][PASSED] - Object 'Object Repository/NewPost/AddTitlePost' is present
+
+2020-11-30 23:00:49 - [TEST_STEP][PASSED] - setText(findTestObject("NewPost/AddTitlePost"), "Mi Nueva Pagina"): Text 'Mi Nueva Pagina' is set on object 'Object Repository/NewPost/AddTitlePost'
+
+2020-11-30 23:00:50 - [MESSAGE][PASSED] - Text 'Mi Nueva Pagina' is set on object 'Object Repository/NewPost/AddTitlePost'
+
+2020-11-30 23:00:50 - [TEST_STEP][PASSED] - click(findTestObject("NewPost/button_Publish_Post")): Object: 'Object Repository/NewPost/button_Publish_Post' is clicked on
+
+2020-11-30 23:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/NewPost/button_Publish_Post' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Posts/NavigateOptions" time="18.208" classname="Test Cases/Posts/NavigateOptions" status="PASSED">
+         <system-out><![CDATA[2020-11-30 23:00:55 - [TEST_CASE][PASSED] - Test Cases/Posts/NavigateOptions: Test Cases/Posts/NavigateOptions
+
+2020-11-30 23:00:55 - [TEST_STEP][PASSED] - openBrowser("https://s1.demo.opensourcecms.com/wordpress/wp-login.php"): Browser is opened with url: 'https://s1.demo.opensourcecms.com/wordpress/wp-login.php'
+
+2020-11-30 23:00:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-11-30 23:00:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-11-30 23:00:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-30 23:01:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://s1.demo.opensourcecms.com/wordpress/wp-login.php'
+
+2020-11-30 23:01:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-11-30 23:01:03 - [MESSAGE][PASSED] - Current window maximized
+
+2020-11-30 23:01:03 - [TEST_STEP][PASSED] - click(findTestObject("Login/InputUserName")): Object: 'Object Repository/Login/InputUserName' is clicked on
+
+2020-11-30 23:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/InputUserName' is clicked on
+
+2020-11-30 23:01:03 - [TEST_STEP][PASSED] - setText(findTestObject("Login/InputUserName"), "opensourcecms"): Text 'opensourcecms' is set on object 'Object Repository/Login/InputUserName'
+
+2020-11-30 23:01:03 - [MESSAGE][PASSED] - Text 'opensourcecms' is set on object 'Object Repository/Login/InputUserName'
+
+2020-11-30 23:01:03 - [TEST_STEP][PASSED] - click(findTestObject("Login/InputPassword")): Object: 'Object Repository/Login/InputPassword' is clicked on
+
+2020-11-30 23:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/InputPassword' is clicked on
+
+2020-11-30 23:01:04 - [TEST_STEP][PASSED] - setText(findTestObject("Login/InputPassword"), "opensourcecms"): Text 'opensourcecms' is set on object 'Object Repository/Login/InputPassword'
+
+2020-11-30 23:01:04 - [MESSAGE][PASSED] - Text 'opensourcecms' is set on object 'Object Repository/Login/InputPassword'
+
+2020-11-30 23:01:04 - [TEST_STEP][PASSED] - click(findTestObject("Login/ButtonLogin")): Object: 'Object Repository/Login/ButtonLogin' is clicked on
+
+2020-11-30 23:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/ButtonLogin' is clicked on
+
+2020-11-30 23:01:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main Page/WelcomeMenu"), 5): Object 'Object Repository/Main Page/WelcomeMenu' is present
+
+2020-11-30 23:01:07 - [MESSAGE][PASSED] - Object 'Object Repository/Main Page/WelcomeMenu' is present
+
+2020-11-30 23:01:07 - [TEST_STEP][PASSED] - click(findTestObject("Options/MenuPost")): Object: 'Object Repository/Options/MenuPost' is clicked on
+
+2020-11-30 23:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Options/MenuPost' is clicked on
+
+2020-11-30 23:01:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Interfaces/InterfacePost"), 3): Object 'Object Repository/Interfaces/InterfacePost' is present
+
+2020-11-30 23:01:08 - [MESSAGE][PASSED] - Object 'Object Repository/Interfaces/InterfacePost' is present
+
+2020-11-30 23:01:08 - [TEST_STEP][PASSED] - click(findTestObject("NavegationOptions/PublishedPost")): Object: 'Object Repository/NavegationOptions/PublishedPost' is clicked on
+
+2020-11-30 23:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/NavegationOptions/PublishedPost' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Posts/ViewInterfacePosts" time="17.552" classname="Test Cases/Posts/ViewInterfacePosts" status="PASSED">
+         <system-out><![CDATA[2020-11-30 23:01:13 - [TEST_CASE][PASSED] - Test Cases/Posts/ViewInterfacePosts: Test Cases/Posts/ViewInterfacePosts
+
+2020-11-30 23:01:13 - [TEST_STEP][PASSED] - openBrowser("https://s1.demo.opensourcecms.com/wordpress/wp-login.php"): Browser is opened with url: 'https://s1.demo.opensourcecms.com/wordpress/wp-login.php'
+
+2020-11-30 23:01:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-11-30 23:01:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-11-30 23:01:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-30 23:01:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://s1.demo.opensourcecms.com/wordpress/wp-login.php'
+
+2020-11-30 23:01:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-11-30 23:01:21 - [MESSAGE][PASSED] - Current window maximized
+
+2020-11-30 23:01:21 - [TEST_STEP][PASSED] - click(findTestObject("Login/InputUserName")): Object: 'Object Repository/Login/InputUserName' is clicked on
+
+2020-11-30 23:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/InputUserName' is clicked on
+
+2020-11-30 23:01:21 - [TEST_STEP][PASSED] - setText(findTestObject("Login/InputUserName"), "opensourcecms"): Text 'opensourcecms' is set on object 'Object Repository/Login/InputUserName'
+
+2020-11-30 23:01:22 - [MESSAGE][PASSED] - Text 'opensourcecms' is set on object 'Object Repository/Login/InputUserName'
+
+2020-11-30 23:01:22 - [TEST_STEP][PASSED] - click(findTestObject("Login/InputPassword")): Object: 'Object Repository/Login/InputPassword' is clicked on
+
+2020-11-30 23:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/InputPassword' is clicked on
+
+2020-11-30 23:01:22 - [TEST_STEP][PASSED] - setText(findTestObject("Login/InputPassword"), "opensourcecms"): Text 'opensourcecms' is set on object 'Object Repository/Login/InputPassword'
+
+2020-11-30 23:01:22 - [MESSAGE][PASSED] - Text 'opensourcecms' is set on object 'Object Repository/Login/InputPassword'
+
+2020-11-30 23:01:22 - [TEST_STEP][PASSED] - click(findTestObject("Login/ButtonLogin")): Object: 'Object Repository/Login/ButtonLogin' is clicked on
+
+2020-11-30 23:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/ButtonLogin' is clicked on
+
+2020-11-30 23:01:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main Page/WelcomeMenu"), 5): Object 'Object Repository/Main Page/WelcomeMenu' is present
+
+2020-11-30 23:01:25 - [MESSAGE][PASSED] - Object 'Object Repository/Main Page/WelcomeMenu' is present
+
+2020-11-30 23:01:25 - [TEST_STEP][PASSED] - click(findTestObject("Options/MenuPost")): Object: 'Object Repository/Options/MenuPost' is clicked on
+
+2020-11-30 23:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Options/MenuPost' is clicked on
+
+2020-11-30 23:01:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Interfaces/InterfacePost"), 3): Object 'Object Repository/Interfaces/InterfacePost' is present
+
+2020-11-30 23:01:26 - [MESSAGE][PASSED] - Object 'Object Repository/Interfaces/InterfacePost' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-30 23:00:08 - [TEST_SUITE][INCOMPLETE] - Posts: null]]></system-out>
+      <system-err><![CDATA[2020-11-30 23:00:08 - [TEST_SUITE][INCOMPLETE] - Posts: null]]></system-err>
+   </testsuite>
+</testsuites>
