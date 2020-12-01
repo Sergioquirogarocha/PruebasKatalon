@@ -42,10 +42,6 @@ WebUI.click(findTestObject('Options/MenuPages'))
 
 WebUI.verifyElementPresent(findTestObject('Interfaces/InterfacePages'), 3)
 
-WebUI.click(findTestObject('NavegationOptions/Trash'))
-
-WebUI.delay(3)
-
 WebUI.click(findTestObject('NavegationOptions/Published'))
 
 WebUI.delay(3)
